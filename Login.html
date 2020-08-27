@@ -1,0 +1,66 @@
+ <!DOCTYPE html>
+<html lang'pt-br>
+	<head>
+		
+		<meta charset="UFT-8">
+		<title>Acesso</title>
+		<link rel="slylesheet" href="style.css">
+	<style>
+	
+		body{
+			margin: 0;
+			padding: 0;	
+			font-family: sans-serif;
+			background: #34334e;
+		}
+		.box{
+			width: 300px;
+			padding: 40px;
+			position: absolute;
+			top: 50%;
+			left: 50;
+			transform: translate(140%,-50%);
+			background: #191919;
+			text-align: center;
+		}
+			.box input[type = "text"],.box input[type = "senha"]{
+			border:0;
+			background: none;
+			display: block;
+			margin: 20px auto;
+			text-align: center;
+			border: 2px solid #3498db;
+			padding: 14px 10px;
+			width: 200px;
+			outline: none;
+			color: white;
+			border-radius:24px;
+			transition: 0.25s;
+		}
+		.box h1{
+			color: white;
+			text-transform: uppercase;
+			font-weight: 500;
+		}
+		.box input[type = "text"]:focus ,.box input[type = "senha"]{
+			width: 280px;
+			border-color: #2ecc71;
+		}
+		
+		
+	</style>
+	</head>
+
+	<body>
+ <form class="box" action="index.html" metod="post">
+	<h1>Login</h1>
+	<input type="text" name=""placeholder="E-mail">
+	<input type="text" name=""placeholder="password">
+	<input type="submit" name=""value="Entrar">
+	<input type="submit" name=""value="Cadastrar">
+
+	</form>
+
+
+	</body>
+</html>
